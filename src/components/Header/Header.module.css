@@ -1,0 +1,11 @@
+.header {
+    background-color: darkslateblue;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.header .title {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.8rem;
+}

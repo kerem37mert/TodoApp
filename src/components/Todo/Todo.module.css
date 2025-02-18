@@ -1,0 +1,62 @@
+.todolist {
+    width: 50%;
+    margin: 2rem auto;
+}
+
+.listItem {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.listItem p {
+    margin: 0;
+    padding: 0.5rem;
+}
+
+.content {
+    background-color: darkslateblue;
+    flex: 5;
+    color: #fff;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.remove {
+    flex: 1;
+    text-align: center;
+    background-color: #ff2600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.remove:hover {
+    background-color: tomato;
+}
+
+
+.newItem {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.newItem input {
+    flex: 5;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-right: 1rem;
+}
+
+.newItem button {
+    flex: 1;
+    cursor: pointer;
+    border: none;
+    background-color: darkslateblue;
+    color: #fff;
+    padding: 0.7rem 0.5rem
+}
